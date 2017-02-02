@@ -29,4 +29,10 @@ public class Client {
 	public void setCognom(String cognom) {
 		this.cognom = cognom;
 	}
+
+	@Override
+	public String toString() {
+		return "Client [nom=" + nom + ", cognom=" + cognom + "]";
+	}
+	
 }

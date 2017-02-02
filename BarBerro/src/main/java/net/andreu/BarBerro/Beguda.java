@@ -2,6 +2,11 @@ package net.andreu.BarBerro;
 
 public class Beguda {
 
+	@Override
+	public String toString() {
+		return "Beguda [nom=" + nom + ", quantitat=" + quantitat + "]";
+	}
+
 	private String nom;
 	private String quantitat;
 	

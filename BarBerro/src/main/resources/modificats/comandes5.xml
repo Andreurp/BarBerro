@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<comandes>
+    <comanda>
+        <client>
+            <cognom>Llanet</cognom>
+            <nom>Carles</nom>
+        </client>
+        <begudes>
+            <beguda>
+                <nom>Gin Tonic</nom>
+                <quantitat>3</quantitat>
+            </beguda>
+        </begudes>
+    </comanda>
+</comandes>

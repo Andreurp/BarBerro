@@ -40,5 +40,20 @@ public class Comanda {
 		this.begudes = begudes;
 	}
 	
+	public int getCerveses(){
+		int cerveses = 0;
+		for(Beguda b: begudes){
+			if(b.getNom().equals("Cervesa")){
+				cerveses+=Integer.parseInt(b.getQuantitat());
+			}
+		}
+		return cerveses;
+	}
+
+	@Override
+	public String toString() {
+		return "Comanda [client=" + client + ", begudes=" + begudes + "]";
+	}
+	
 	
 }
